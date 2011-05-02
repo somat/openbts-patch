@@ -1,0 +1,13 @@
+--- USRPDevice.h	2010-07-17 07:01:44.000000000 +0700
++++ USRPDevice.h.new	2011-04-15 22:53:03.000000000 +0700
+@@ -126,8 +126,8 @@ private:
+   static const unsigned CP2 = 7;
+   static const unsigned CP1 = 7;
+   static const unsigned DIVSEL = 0;
+-  static const unsigned DIV2 = 1;
+-  static const unsigned freq_mult = 2;
++  unsigned DIV2;
++  unsigned freq_mult;
+   static const unsigned CPGAIN = 0;
+   static const float    minFreq = 800e6;
+   static const float    maxFreq = 1000e6;
